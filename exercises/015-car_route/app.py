@@ -1,9 +1,9 @@
-# EJERCICIO 15 - car route
-# Complete the function to return the amount of days it will take to cover a route
-def car_route(n,m):
+# EJERCICIO 16 - century
+# Complete the function to return the respective number of the century
+def century(year):
   import math 
-  distance = m / n
-  result = math.ceil(distance)
+  number = year / 100
+  result = math.ceil(number)
   return result
-# Invoke the function with two integers
-print(car_route(20, 40))
+# Invoke the function with any given year
+print(century(2001))
